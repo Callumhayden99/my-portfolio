@@ -6,6 +6,17 @@ import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa6";
+import { SiJavascript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
@@ -42,10 +53,20 @@ export default function BaseLayout() {
                </Routes>
             </Grid>
             <Grid item>
-               <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                    py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
-                  <p>&copy; 2023</p>
+               <Box component={'footer'} display={'flex'} flexDirection={'row'} alignItems={'center'} justifyContent={'center'} gap={5} 
+                    py={'1.7rem'} sx={{opacity: 0.7}} width={'100%'} fontSize={50}>
+                  
+                 <p><FaHtml5/></p>
+                 <p><FaCss3Alt/></p>
+                 <p><SiJavascript/></p>
+                 <p><FaReact/></p>
+                 <p><FaGitAlt/></p>
+                 <p><SiMongodb/></p>
+                 <p><SiPostgresql/></p>
+                 <p><FaNodeJs/></p>
+                 <p><SiExpress/></p>
+                 <p><SiTailwindcss/></p>
+                 <p><FaSass/></p>
                </Box>
             </Grid>
          </Grid>

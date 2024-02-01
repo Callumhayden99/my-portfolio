@@ -41,7 +41,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Looking for a job"
+            text: "Looking for my first frontend developer job"
         },
         {
             emoji: "📧",
@@ -78,28 +78,28 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Callum. I'm a junior frontend developer. I've just completed my 6 month bootcamp at Boolean. I'm a hard working individual who wants to learn more. If you hire me, you wont be let down!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'MongoDB', 'html5', 'css3', ],
+            exposedTo: ['nodejs', ' express', 'postgresSQL', 'tailwind', 'sass']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Gaming',
+            emoji: '🎮' 
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Gym',
+            emoji: '🏋️‍♀️'
         },
         {
-            label: 'movies',
+            label: 'Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'Cooking',
             emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -107,19 +107,19 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "LUXURY MOTORS/ FULL STACK",
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
+            title: "STAR WARS/ FRONTEND",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock2
         },
         {
-            title: "Project 3",
+            title: "COHORT MANAGER/ FRONTEND",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock3
