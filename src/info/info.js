@@ -101,6 +101,10 @@ export const info = {
         {
             label: 'Cooking',
             emoji: '🌶'
+        },
+        {
+            label: 'Reading(espcially all the star wars ones)',
+            emoji: '📖'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P

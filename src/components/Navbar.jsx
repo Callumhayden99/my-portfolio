@@ -12,7 +12,7 @@ const links = [
     active: "home",
   },
   {
-    name: "About Me",
+    name: "About",
     to: "/about",
     active: "about",
   },
@@ -29,6 +29,7 @@ const links = [
   },
 ];
 
+// eslint-disable-next-line react/prop-types
 export default function Navbar({ darkMode, handleClick }) {
   const location = useLocation();
   const [active, setActive] = useState(
@@ -38,7 +39,7 @@ export default function Navbar({ darkMode, handleClick }) {
   );
 
   return (
-    <Box component={"nav"} width={"100%"}>
+    <Box component={"nav"} width={"100%"} >
       <Box
         component={"ul"}
         display={"flex"}
@@ -46,7 +47,7 @@ export default function Navbar({ darkMode, handleClick }) {
         alignItems={"center"}
         gap={{ xs: "2rem", md: "8rem" }}
         textTransform={"uppercase"}
-        fontSize={"1rem"}
+        fontSize={{ xs: "0.6rem", sm: "1.2rem", md: "1.5rem" }} 
       >
         {links.map((link, index) => (
           <Box

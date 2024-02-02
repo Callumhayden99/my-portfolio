@@ -5,6 +5,7 @@ import {Box} from "@mui/material";
 const iconClass = "fa fa-circle";
 
 function Terminal(props) {
+   // eslint-disable-next-line react/prop-types
    const {text} = props;
 
    return (
@@ -17,7 +18,7 @@ function Terminal(props) {
             <i className={classNames(iconClass, Style.green)}/>
          </Box>
          <Box py={{xs: '1rem', md: '2rem'}} px={{xs: '2rem', md: '3rem'}} borderRadius={'0 0 0.5rem 0.5rem'}
-              sx={{backgroundColor: '#27242f'}} fontSize={'1.5rem'} fontFamily={'Courier New, Courier, monospace'}>
+              sx={{backgroundColor: '#27242f'}} fontSize={{ xs: '0.8rem', sm: '1.2rem', md: '1.5rem' }} fontFamily={'Courier New, Courier, monospace'}>
             {text}
          </Box>
       </Box>
