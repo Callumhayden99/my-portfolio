@@ -2,7 +2,7 @@
 import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
-import {info} from "../../info/Info";
+import {info} from "../../info/info";
 
 
 export default function About() {
@@ -16,6 +16,8 @@ export default function About() {
                 className={Style.green}>(main)</span> $ </span>
                 {info.bio}
             </p>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $ </span><a href={info.cv[0].link} target="_blank" rel="noopener noreferrer">My CV</a></p>
+
         </>;
     }
 
