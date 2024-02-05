@@ -1,6 +1,6 @@
 
 import Style from './About.module.scss';
-import Terminal from "./Terminal";
+import Terminal from "./terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/info";
 
