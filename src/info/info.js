@@ -139,7 +139,7 @@ export const info = {
     },
     {
       title: "STAR WARS/ FRONTEND",
-      live: "https://paytonpierce.dev",
+      live: "https://drive.google.com/file/d/1SWGxBSPTCjhJS-6FqLkSUvGmoNne-zl1/view?usp=sharing",
       source: "https://github.com/Callumhayden99/starwars-project",
       image: mock2,
     },
