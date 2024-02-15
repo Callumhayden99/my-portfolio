@@ -78,7 +78,7 @@ export const info = {
   bio: "Hello! I'm Callum. I'm a junior frontend developer. I've just completed my 6 month bootcamp at Boolean. I'm a hard working individual who wants to learn more. If you hire me, you wont be let down!",
   cv: [
     {
-      link: "https://drive.google.com/file/d/1X1B6qK-EkPLLEgnhG7OxI0q0ebBfPb2a/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1d9NY2we9YxsV62dQEOELh4qi7u5m8uXu/view?usp=sharing",
     },
   ],
   skills: {
@@ -144,7 +144,7 @@ export const info = {
       image: mock2,
     },
     {
-      title: "COHORT MANAGER/ FRONTEND",
+      title: "COHORT MANAGER/ FULL STACK",
       live: "https://paytonpierce.dev",
       source:
         "https://github.com/Callumhayden99/react-cohort-dashboard-challenge",
