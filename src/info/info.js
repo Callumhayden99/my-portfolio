@@ -78,7 +78,7 @@ export const info = {
   bio: "Hello! I'm Callum. I'm a junior frontend developer. I've just completed my 6 month bootcamp at Boolean. I'm a hard working individual who wants to learn more. If you hire me, you wont be let down!",
   cv: [
     {
-      link: "https://drive.google.com/file/d/1K5PnZaOcQyK8sN9pFk7kZ7t9qjV0o8Ie/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1X1B6qK-EkPLLEgnhG7OxI0q0ebBfPb2a/view?usp=sharing",
     },
   ],
   skills: {
