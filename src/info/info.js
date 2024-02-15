@@ -132,7 +132,7 @@ export const info = {
     // This is where your portfolio projects will be detailed
     {
       title: "LUXURY MOTORS/ FULL STACK",
-      live: "https://we.tl/t-JE8ZTzTeaq", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      live: "https://drive.google.com/file/d/1YWNspl1Rir02RN5jPI7fJUsEraaUfNCO/view?usp=sharing", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source:
         "https://github.com/Callumhayden99/carsite/tree/main/my-react-app", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
