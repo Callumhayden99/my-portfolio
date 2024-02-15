@@ -23,7 +23,7 @@ export const info = {
   firstName: "Callum",
   lastName: "Hayden",
   initials: "CH", // the example uses first and last, but feel free to use three or more if you like.
-  position: "a Junior Frontend Developer",
+  position: "a Junior Full stack Developer",
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
@@ -39,7 +39,7 @@ export const info = {
     },
     {
       emoji: "💼",
-      text: "Looking for my first frontend developer job",
+      text: "Looking for my first software developer job",
     },
     {
       emoji: "📧",
@@ -75,7 +75,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hello! I'm Callum. I'm a junior frontend developer. I've just completed my 6 month bootcamp at Boolean. I'm a hard working individual who wants to learn more. If you hire me, you wont be let down!",
+  bio: "Hello! I'm Callum. I'm a junior full stack developer. I've just completed my 6 month bootcamp at Boolean. I'm a hard working individual who wants to learn more. If you hire me, you wont be let down!",
   cv: [
     {
       link: "https://drive.google.com/file/d/1d9NY2we9YxsV62dQEOELh4qi7u5m8uXu/view?usp=sharing",
@@ -144,10 +144,12 @@ export const info = {
       image: mock2,
     },
     {
-      title: "COHORT MANAGER/ FULL STACK",
-      live: "https://paytonpierce.dev",
+      title: "COHORT MANAGER/ FULL STACK/ COMING SOON!",
+      live: "",
       source:
-        "https://github.com/Callumhayden99/react-cohort-dashboard-challenge",
+        "https://github.com/boolean-uk/team-dev-client-c11",
+      source2:
+        "https://github.com/boolean-uk/team-dev-server-c11",
       image: mock3,
     },
   ],
