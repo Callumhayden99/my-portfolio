@@ -45,9 +45,9 @@ export default function Navbar({ darkMode, handleClick }) {
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
-        gap={{ xs: "2rem", md: "8rem" }}
+        gap={{ xs: "1.7rem", md: "8rem" }}
         textTransform={"uppercase"}
-        fontSize={{ xs: "0.6rem", sm: "1.2rem", md: "1.5rem" }} 
+        fontSize={{ xs: "0.7rem", sm: "1.2rem", md: "1.5rem" }} 
       >
         {links.map((link, index) => (
           <Box
