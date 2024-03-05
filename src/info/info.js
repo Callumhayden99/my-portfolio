@@ -2,6 +2,7 @@ import self from "../img/self.png";
 import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
+import mock4 from "../img/mock4.jpg";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -151,6 +152,12 @@ export const info = {
       source2:
         "https://github.com/boolean-uk/team-dev-server-c11",
       image: mock3,
+    },
+    {
+      title: "Task list/Full Stack",
+      live: "https://task-job-generator.netlify.app/auth",
+      source: "https://github.com/Callumhayden99/to-do",
+      image: mock4,
     },
   ],
 };
