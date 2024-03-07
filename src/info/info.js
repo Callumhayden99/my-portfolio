@@ -153,11 +153,5 @@ export const info = {
         "https://github.com/boolean-uk/team-dev-server-c11",
       image: mock3,
     },
-    {
-      title: "Task list/Full Stack",
-      live: "https://task-job-generator.netlify.app/auth",
-      source: "https://github.com/Callumhayden99/to-do",
-      image: mock8,
-    },
   ],
 };
