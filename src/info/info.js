@@ -1,8 +1,8 @@
 import self from "../img/self.png";
 import mock1 from "../img/mock1.png";
-import mock2 from "../img/mock2.png";
+import mock4 from "../img/mock4.png";
 import mock3 from "../img/mock3.png";
-import mock8 from "../img/mock8.png";
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -132,6 +132,13 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
+      title: "SKY ESTATE/ FULL STACK",
+      live: "https://sky-estate.netlify.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source:
+        "https://github.com/Callumhayden99/my-hom", // this should be a link to the **repository** of the project, where the code is hosted.
+      image: mock3,
+    },
+    {
       title: "LUXURY MOTORS/ FULL STACK",
       live: "https://drive.google.com/file/d/1YWNspl1Rir02RN5jPI7fJUsEraaUfNCO/view?usp=sharing", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source:
@@ -142,16 +149,7 @@ export const info = {
       title: "STAR WARS/ FRONTEND",
       live: "https://drive.google.com/file/d/1SWGxBSPTCjhJS-6FqLkSUvGmoNne-zl1/view?usp=sharing",
       source: "https://github.com/Callumhayden99/starwars-project",
-      image: mock2,
-    },
-    {
-      title: "COHORT MANAGER/ FULL STACK/ COMING SOON!",
-      live: "",
-      source:
-        "https://github.com/boolean-uk/team-dev-client-c11",
-      source2:
-        "https://github.com/boolean-uk/team-dev-server-c11",
-      image: mock3,
+      image: mock4,
     },
   ],
 };
