@@ -3,7 +3,6 @@ import mock1 from "../img/mock1.png";
 import mock4 from "../img/mock4.png";
 import mock3 from "../img/mock3.png";
 
-
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
@@ -134,9 +133,14 @@ export const info = {
     {
       title: "SKY ESTATE/ FULL STACK",
       live: "https://sky-estate.netlify.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source:
-        "https://github.com/Callumhayden99/my-hom", // this should be a link to the **repository** of the project, where the code is hosted.
+      source: "https://github.com/Callumhayden99/my-hom", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock3,
+    },
+    {
+      title: "EXPRESS WEB DESIGN/FRONTEND",
+      live: "https://expresswebdesign.netlify.app",
+      source: "https://github.com/Callumhayden99/ExpressWebDesigns",
+      image: mock4,
     },
     {
       title: "LUXURY MOTORS/ FULL STACK",
@@ -144,12 +148,6 @@ export const info = {
       source:
         "https://github.com/Callumhayden99/carsite/tree/main/my-react-app", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
-    },
-    {
-      title: "STAR WARS/ FRONTEND",
-      live: "https://drive.google.com/file/d/1SWGxBSPTCjhJS-6FqLkSUvGmoNne-zl1/view?usp=sharing",
-      source: "https://github.com/Callumhayden99/starwars-project",
-      image: mock4,
     },
   ],
 };
